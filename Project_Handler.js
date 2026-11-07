@@ -255,6 +255,13 @@ async function Populate_Carousels(data,type,featured) {
         parent.innerHTML = new_carousel.join('\n');
         
 
+        const container1 = document.getElementById("recent-projects-carousel");
+		const options1 = {Dots: false, Navigation: {nextTpl: "Next page",prevTpl: "Previous page"},infinite: false, slidesPerPage: 5};
+		new Carousel(container1, options1);
+		
+
+
+
         if (featured) {
             let current_fcarousel = [];
             
@@ -297,7 +304,12 @@ async function Populate_Carousels(data,type,featured) {
             let parent = document.getElementById('featured-projects-carousel').getElementsByClassName('f-carousel__track')[0];
             parent.innerHTML = new_fcarousel.join('\n');
             
+            
+            const container2 = document.getElementById("featured-projects-carousel");
+            const options2 = {Dots: false, Navigation: {nextTpl: "Next page",prevTpl: "Previous page"},infinite: false, slidesPerPage: 5};
+            new Carousel(container2, options2);
         }
+		
 
     } else {
         console.log("No data to process.");
@@ -305,33 +317,11 @@ async function Populate_Carousels(data,type,featured) {
 }
 
 
-function initCarousel(){
-    let container1 = document.getElementById("recent-projects-carousel");
-    let options1 = {Dots: false, Navigation: {nextTpl: "Next page",prevTpl: "Previous page"},infinite: false, slidesPerPage: 5};
-    new Carousel(container1, options1);
-
-
-    let container2 = document.getElementById("featured-projects-carousel");
-    let options2 = {Dots: false, Navigation: {nextTpl: "Next page",prevTpl: "Previous page"},infinite: false, slidesPerPage: 5};
-    new Carousel(container2, options2);
-    
-    // console.log(container2.outerHTML);
-    // console.log("slide elements:", container2.querySelectorAll(".f-carousel__slide").length);
-    
-    console.log("initialized element:", container2);
-    console.log("slides inside that element:",
-    container2.querySelectorAll(".f-carousel__slide").length
-    );
-    // console.log("all matching containers:",
-    // document.querySelectorAll(".f-carousel").length
-    // );
-
-}
-
-if (document.readyState === "complete") {
-    initCarousel();
-} else {
-    window.addEventListener("load", initCarousel, { once: true });
+window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
 }
 
 
