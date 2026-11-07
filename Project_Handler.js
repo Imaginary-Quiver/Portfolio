@@ -307,9 +307,31 @@ async function Populate_Carousels(data,type,featured) {
             
             let container2 = document.getElementById("featured-projects-carousel");
             let options2 = {Dots: false, Navigation: {nextTpl: "Next page",prevTpl: "Previous page"},infinite: false, slidesPerPage: 5};
-            console.log("carousel element:", container2, "time:", performance.now());
-            new Carousel(container2, options2);
-            console.log("carousel element:", container2, "time:", performance.now());
+            
+            
+
+            // console.log(container2.outerHTML);
+            // console.log("slide elements:", container2.querySelectorAll(".f-carousel__slide").length);
+            
+            // console.log("initialized element:", container2);
+            // console.log("slides inside that element:",
+            // container2.querySelectorAll(".f-carousel__slide").length
+            // );
+            // console.log("all matching containers:",
+            // document.querySelectorAll(".f-carousel").length
+            // );
+
+            const instance = new Carousel(container2, options2);
+            // console.log(container2.querySelector(".f-carousel__nav"));
+            // console.log({
+            // slides: instance.slides?.length,
+            // pages: instance.pages?.length,
+            // nav: container2.querySelector(".f-carousel__nav"),
+            // });
+            console.log(container2.outerHTML);
+            console.log("container class:", container2.className);
+            console.log("slides:", container2.querySelectorAll(".f-carousel__slide").length);
+            console.log("nav anywhere:", document.querySelector(".f-carousel__nav"));
         }
 		
 

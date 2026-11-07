@@ -127,6 +127,10 @@ main section {
 
 #myCarousel {
   margin-bottom: 24px;
+  /* --f-carousel-spacing: 25px;
+  --f-carousel-gap: 25px;
+  --f-carousel-slide-width: calc(100%-191px);
+  --f-carousel-slide-height: 126px; */
 }
 
 .f-carousel {
@@ -157,6 +161,10 @@ main section {
   height: 166px;
   overflow: hidden;
 }
+
+/* .f-carousel__track {
+  display: flex;
+} */
 
 .f-carousel img {
   margin: 20px;
