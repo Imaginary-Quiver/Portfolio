@@ -316,13 +316,29 @@ async function Populate_Carousels(data,type,featured) {
     }
 }
 
+function navRefresh(){
+    const container2 = document.getElementById("featured-projects-carousel");
+    const nav = container2.querySelector(".f-carousel__nav");
 
-window.onload = function() {
-    if(!window.location.hash) {
-        window.location = window.location + '#loaded';
+    if(nav == null){
         window.location.reload();
     }
 }
+
+
+if (document.readyState === "complete") {
+    navRefresh();
+} else {
+    window.addEventListener("load", navRefresh, { once: true });
+}
+
+
+// window.onload = function() {
+//     if(!window.location.hash) {
+//         window.location = window.location + '#loaded';
+//         window.location.reload();
+//     }
+// }
 
 
 async function Populate_Project_Page(data) {
