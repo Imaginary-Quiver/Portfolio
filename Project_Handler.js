@@ -255,8 +255,8 @@ async function Populate_Carousels(data,type,featured) {
         parent.innerHTML = new_carousel.join('\n');
         
 
-        const container1 = document.getElementById("recent-projects-carousel");
-		const options1 = {Dots: false, Navigation : {} ,infinite: false, slidesPerPage: 5};
+        let container1 = document.getElementById("recent-projects-carousel");
+		let options1 = {Dots: false, Navigation: {nextTpl: "Next page",prevTpl: "Previous page"},infinite: false, slidesPerPage: 5};
 		new Carousel(container1, options1);
 		
 
@@ -305,9 +305,11 @@ async function Populate_Carousels(data,type,featured) {
             parent.innerHTML = new_fcarousel.join('\n');
             
             
-            const container2 = document.getElementById("featured-projects-carousel");
-            const options2 = {Dots: false, Navigation : {} ,infinite: false, slidesPerPage: 5};
+            let container2 = document.getElementById("featured-projects-carousel");
+            let options2 = {Dots: false, Navigation: {nextTpl: "Next page",prevTpl: "Previous page"},infinite: false, slidesPerPage: 5};
+            console.log("carousel element:", container2, "time:", performance.now());
             new Carousel(container2, options2);
+            console.log("carousel element:", container2, "time:", performance.now());
         }
 		
 

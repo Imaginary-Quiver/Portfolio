@@ -87,19 +87,16 @@
 
 	<script>
 		Execute_Listings("All",2,true);
-
 		const observer = new MutationObserver((mutations) => {
-			mutations.forEach((mutation) => {				
+			mutations.forEach((mutation) => {
 				if (mutation.type === 'childList') {
-					
 					mutation.addedNodes.forEach((node) => {
 						// Check if the added node is the one we are interested in
 						if (node.nodeType === Node.ELEMENT_NODE && node.classList.contains('f-carousel__nav')) {
-											
 							let left = node.getElementsByClassName('is-prev');
 							let right = node.getElementsByClassName('is-next');
 							
-							left[0].innerHTML = '<img class="button_img" src="Media/Ui_Images/Left.png" alt="Left">';	
+							left[0].innerHTML = '<img class="button_img" src="Media/Ui_Images/Left.png" alt="Left">';
 							
 							right[0].innerHTML = '<img class="button_img" src="Media/Ui_Images/Right.png" alt="Right">';
 						}
@@ -109,10 +106,6 @@
 		});
 		// Start observing the document body for child additions
 		observer.observe(document.getElementById('main'), { childList: true, subtree: true });
-
-
-		
-		
 	</script>
 </body>
 </html>
