@@ -257,7 +257,7 @@ async function Populate_Carousels(data,type,featured) {
 
         let container1 = document.getElementById("recent-projects-carousel");
 		let options1 = {Dots: false, Navigation: {nextTpl: "Next page",prevTpl: "Previous page"},infinite: false, slidesPerPage: 5};
-		new Carousel(container1, options1);
+		await new Carousel(container1, options1);
 		
 
 
@@ -321,7 +321,7 @@ async function Populate_Carousels(data,type,featured) {
             // document.querySelectorAll(".f-carousel").length
             // );
 
-            const instance = new Carousel(container2, options2);
+            const instance = await new Carousel(container2, options2);
             // console.log(container2.querySelector(".f-carousel__nav"));
             // console.log({
             // slides: instance.slides?.length,
