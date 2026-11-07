@@ -172,7 +172,6 @@ async function Populate_Listings(data,type) {
         
 
         let current_listings = [];
-        
         for (i in data) {
             if (type == "Game" && data[i].type.includes("Game")) {
                 current_listings.push(data[i]);
@@ -193,11 +192,17 @@ async function Populate_Listings(data,type) {
             new_listings.push(current_listings[i].Generate_Listing(type));
         };
     
-
+        
 
         let parent = document.getElementById('Project_List');
-        
-        parent.innerHTML = `<h2 class="spectral-bold padding-seventy-two">Games</h2>\n\n${new_listings.join('\n')}`;
+        let title =  `<h2 class="spectral-bold padding-seventy-two">Games</h2>\n\n${new_listings.join('\n')}`
+
+        if(type == "Art"){
+            title = `<h2 class="spectral-bold padding-seventy-two">Art</h2>\n\n${new_listings.join('\n')}`;
+        } else if(type == "Misc"){
+            title = `<h2 class="spectral-bold padding-seventy-two">Miscellaneous</h2>\n\n${new_listings.join('\n')}`;
+        }
+        parent.innerHTML = title;
 
     } else {
         console.log("No data to process.");
