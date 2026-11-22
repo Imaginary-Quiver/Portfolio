@@ -1,5 +1,5 @@
 
-let Project_Name_List = ["Forsaken Seas","Hex-okles","Rubber Run","Cargethal","Deus Ex Magica","Fringe Flayer","Grinning Order Cultist","Terraria Boss Remix","Zavel","Watty Vandalisim","Loop Apocolypse","Fighting Game Barks"];
+let Project_Name_List = ["Forsaken Seas","Hex-okles","Rubber Run","Cargethal","Deus Ex Magica","Fringe Flayer","Grinning Order Cultist","Terraria Boss Remix","Zavel","Watty Vandalisim","Loop Apocolypse","Fighting Game Barks","Character Design Doc"];
 let  Projects = [];
 
 
