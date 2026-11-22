@@ -9,7 +9,7 @@ Media\Audio_Projects\Audio_Icon.png
 A Narrative
 .alts
 Media/Audio_Projects/Loop Apocolypse.wav
-Loop Apocolypse was the final project for my CTK 240 Audio Design Class. The goal was to create an understandable Narrative that was 2-3 minutes long and did not contain any music or human voice in the foreground. Upon learning the requirement, I immediately thought of Groundhog Day and knew I was going to make a time loop. 
+Loop Apocolypse was the final project for my CTK 240 Audio Design Class. The goal was to create an understandable Narrative that was 2-3 minutes long and did not contain any music or human voice in the foreground. Upon learning the requirement, I immediately thought of Groundhog Day and knew I was going to make a time loop.
 .hs
 The Process
 .txts
