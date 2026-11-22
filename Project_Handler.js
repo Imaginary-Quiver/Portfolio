@@ -380,7 +380,7 @@ async function Populate_Project_Page(data) {
             };
             
         };
-        console.log(content_sections)
+        
         for (i in content_sections){
             let html = "";
             if (content_sections[i][0] == "title_section") {
