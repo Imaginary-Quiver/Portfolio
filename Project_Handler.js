@@ -4,7 +4,7 @@ let  Projects = [];
 
 
 for (i in Project_Name_List) {
-    Project_Name_List[i] = "https://imaginary-quiver.github.io/CTK301/Portfolio/Projects/" + Project_Name_List[i] + ".txt"
+    Project_Name_List[i] = "https://imaginary-quiver.github.io/Portfolio/Projects/" + Project_Name_List[i] + ".txt"
 }
 
 const Section_Types = new Map([
