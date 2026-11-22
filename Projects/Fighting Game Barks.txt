@@ -1,0 +1,16 @@
+Fighting Game Barks
+Narrative Project
+
+Microsoft Word
+All(Solo Project)
+10/30/26
+Media\Narrative_Projects\Narrative_Icon.webp
+.hs
+The Project
+.alts
+Media/Narrative_Projects/Set 3 Fighting Game Barks.pdf
+This was a project I worked on for for my Interactive Digital Narrative Class. The goal was to create a set of barks for a new character in an existing fighting game franchise. After deciding that I wanted to do something for the Injustice franchise, I immediatley thought of my favorite DC joke character, Calendar Man.
+.hs
+The Process
+.txts
+Starting with the character's description, I planned out how he would fit into the wider Injustice story. Then I did some reaserch on his first appearances in comics, and looked for common speach patterns so that I could match his dialogue to his past appearances. Through this process I found an easter egg he appears in and decided to pay homage to it and a few other story lines hes in. This process has led to the creation of what I find to be an acurate and witty rendition of Calendar Man as a playable character in Injustice.
