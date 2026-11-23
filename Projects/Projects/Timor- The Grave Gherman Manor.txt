@@ -1,0 +1,18 @@
+Timor- The Grave Gherman Manor
+Narrative Project
+
+Microsoft Word
+All(Solo Project)
+11/22/26
+Media\Narrative_Projects\Narrative_Icon.webp
+.hs
+The Project
+.plts
+Media/Narrative_Projects/Timor- The Grave Gherman Manor.pdf
+
+.txts
+This was a project I worked on for my Interactive Digital Narrative Class. The goal was to create a publishable TTRPG module compiled from past assignments done in the class. As I have been working on a 3rd party Dungeons and Dragons world for the last 2 years, I already had a lot of material to pull from alongside the in-class assignments that I wrote in relation to that world. For this assignment I compiled a previous set of items I wrote for both the class and world, adapted a puzzle I wrote with a in-classs group, and adapted a character I wrote for the class as part of a D&D Dark Sun assignment.
+.hs
+The Process
+.txts
+I began with gathering the projects I needed to complie and adapt for the setting. Then I gathered background and setting details relevent to the world. With that in place I took a loose collection of notes from an adventure I ran in the world, and fleshed it out to fit with the relevent material. The project called for a strict organizational structure so I went through and editted the document to make sure it had a consistant layout and fixed any grammatical issuses. Then I made the table of contnents and prepared the text blurb at the top detailing the info which you would find on the product page if I were to publish it on a site like DriveThru RPG.

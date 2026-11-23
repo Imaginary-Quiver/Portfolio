@@ -1,0 +1,18 @@
+Character Design Doc
+Narrative Project
+
+Microsoft Word
+All(Solo Project)
+10/04/26
+Media\Narrative_Projects\Narrative_Icon.webp
+.hs
+The Project
+.plts
+Media/Narrative_Projects/Set 2 Character Design Doc.pdf
+
+.txts
+This was a project I worked on for my Interactive Digital Narrative Class. The goal was to produce a compact character model for an original character in an existing setting, or our own. This prompt led me to choose my current Call of Cthulhu 7e campaign as the setting. The character I decided to design was an important NPC for the campaign that I had already loosely planned out, but this gave me the chance to truly flesh him out.
+.hs
+The Process
+.txts
+The character's description is something I went into great depth with in my personal planning, so for this project I tried to consolidate the information I had written. Then I focused on his backstory and relationships, so that I could get a better feel for his motivations and personality. That led me into his want/need, which felt very clear at this point. Lastly, I curated his list of do's and don'ts and, with it, a voice model that would highlight his personality.
