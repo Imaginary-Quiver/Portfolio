@@ -9,6 +9,8 @@ Media\Narrative_Projects\Narrative_Icon.webp
 The Project
 .plts
 Media/Narrative_Projects/Set 3 Fighting Game Barks.pdf
+
+.txts
 This was a project I worked on for my Interactive Digital Narrative Class. The goal was to create a set of barks for a new character in an existing fighting game franchise. After deciding that I wanted to do something for the Injustice franchise, I immediately thought of my favorite DC joke character, Calendar Man.
 .hs
 The Process

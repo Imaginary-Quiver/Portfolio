@@ -439,13 +439,13 @@ async function Populate_Project_Page(data) {
                 let pdf = content_sections[i][1][0];
                 
                 content_sections[i][1].splice(0,1);
-                html = `<section class="pdf_left_text_section">\n    <iframe class="pdf" src="${pdf}" width="800" height="500">\n    </iframe>\n   <p> ${content_sections[i][1].join("\n")}</p>\n   </section>`;
+                html = `<section class="pdf_left_text_section">\n    <iframe class="pdf" src="${pdf}" width="1200" height="500">\n    </iframe>\n   <p> ${content_sections[i][1].join("\n")}</p>\n   </section>`;
 
             } else if (content_sections[i][0] == "pdf_right_text_section") {
                 let pdf = content_sections[i][1][0];
                 content_sections[i][1].splice(0,1);
 
-                html = `<section class="pdf_right_text_section">\n    <p> ${content_sections[i][1].join("\n")}</p>\n    <iframe class="pdf" src="${pdf}" width="800" height="500">\n    </iframe>\n   </section>`;
+                html = `<section class="pdf_right_text_section">\n    <p> ${content_sections[i][1].join("\n")}</p>\n    <iframe class="pdf" src="${pdf}" width="1200" height="500">\n    </iframe>\n   </section>`;
 
             } else {
                 console.log("Error; Incorrect Section Type");

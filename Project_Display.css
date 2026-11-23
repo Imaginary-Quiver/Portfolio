@@ -264,3 +264,9 @@ main .header_section div {
         margin-right: 24px;
 }
 
+iframe.pdf {
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 87%;
+    height: 600px;
+}
